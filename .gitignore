@@ -1,0 +1,53 @@
+# Diretórios e arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.bak
+*.~*
+
+# Arquivos de configuração locais
+.env
+.env.*
+
+# Diretórios de dependências comuns
+node_modules/
+vendor/
+dist/
+build/
+
+# Arquivos de configuração do editor
+.idea/
+.vscode/
+*.code-workspace
+
+# Arquivos de saída de testes
+coverage/
+*.out
+
+# Arquivos de configuração do Kubernetes que não devem ser versionados
+*.secret.yaml
+*.secret.yml
+*.local.yaml
+*.local.yml
+
+# Arquivos de backup do kubectl
+*.bak.yaml
+*.bak.yml
+
+# Arquivos de certificados e chaves
+*.crt
+*.key
+*.pem
+
+# Arquivos Helm
+charts/
+*.tgz
+
+# Arquivos de cache
+.cache/
